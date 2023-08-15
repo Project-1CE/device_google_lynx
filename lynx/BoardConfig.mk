@@ -43,3 +43,5 @@ include device/google/gs201/BoardConfig-common.mk
 include device/google/gs-common/check_current_prebuilt/check_current_prebuilt.mk
 include device/google/lynx/sepolicy/lynx-sepolicy.mk
 include device/google/gs201/wifi/qcom/BoardConfig-wifi.mk
+
+include device/google/lynx/lynx/BoardConfigICE.mk
