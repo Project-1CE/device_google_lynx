@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+TARGET_KERNEL_DIR ?= device/google/lynx-kernel
+
 $(call inherit-product-if-exists, vendor/google_devices/lynx/prebuilts/device-vendor-lynx.mk)
 $(call inherit-product-if-exists, vendor/google_devices/gs201/prebuilts/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/google_devices/gs201/proprietary/device-vendor.mk)
