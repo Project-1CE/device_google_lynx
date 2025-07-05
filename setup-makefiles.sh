@@ -29,6 +29,7 @@ function vendor_imports() {
         "hardware/google/av",
         "hardware/google/interfaces",
         "hardware/google/pixel",
+        "hardware/qcom/wlan/wcn6740",
 EOF
 }
 
